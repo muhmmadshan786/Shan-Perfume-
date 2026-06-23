@@ -14,7 +14,7 @@
 <img src="https://via.placeholder.com/200" width="200">
 
 <h2>Royal Oud</h2>
-<p>Price: 2500 Rs</p>
+<p>Price: 1500 Rs</p>
 
 <button>Buy Now</button>
 
