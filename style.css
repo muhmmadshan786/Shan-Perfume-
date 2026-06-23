@@ -1,0 +1,19 @@
+body{
+    background:black;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
+
+h1{
+    color:gold;
+    margin-top:50px;
+}
+
+button{
+    background:gold;
+    color:black;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+}
