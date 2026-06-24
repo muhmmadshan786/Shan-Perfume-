@@ -90,3 +90,16 @@ font-weight:bold;
 box-shadow:0 0 20px #25D366;
 z-index:999;
 }
+input, textarea{
+width:90%;
+padding:12px;
+border-radius:10px;
+border:1px solid gold;
+background:#111;
+color:white;
+margin:5px;
+}
+
+textarea{
+height:80px;
+}
