@@ -102,4 +102,10 @@ margin:5px;
 
 textarea{
 height:80px;
+}.offer-bar{
+background:gold;
+color:black;
+padding:10px;
+font-weight:bold;
+text-align:center;
 }
