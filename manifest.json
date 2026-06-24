@@ -1,7 +1,7 @@
 {
   "name": "Shan Perfume",
   "short_name": "Shan",
-  "start_url": "/Shan-Perfume/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#FFD700",
