@@ -41,3 +41,59 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+/* Luxury Shan Perfume Design */
+
+* {
+    transition: all 0.4s ease;
+}
+
+h1 {
+    color: gold;
+    text-shadow: 0 0 15px gold;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: gold;
+    text-shadow: 0 0 10px gold;
+}
+
+.product {
+    border: 2px solid gold;
+    box-shadow: 0 0 25px gold;
+    border-radius: 20px;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 35px gold;
+}
+
+img {
+    border-radius: 15px;
+}
+
+img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px gold;
+}
+
+button {
+    animation: glow 1.5s infinite alternate;
+}
+
+button:hover {
+    background: white;
+    color: black;
+    box-shadow: 0 0 20px gold;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px gold;
+    }
+
+    to {
+        box-shadow: 0 0 25px gold;
+    }
+}
