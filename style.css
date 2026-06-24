@@ -109,3 +109,16 @@ padding:10px;
 font-weight:bold;
 text-align:center;
 }
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+font-weight:bold;
+text-decoration:none;
+box-shadow:0 0 20px #25D366;
+z-index:999;
+}
