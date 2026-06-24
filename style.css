@@ -1,99 +1,80 @@
 body{
-    background: black;
+    background: linear-gradient(black, #111);
     color: white;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0;
 }
 
+/* Heading */
 h1{
     color: gold;
-    margin-top: 30px;
+    font-size: 38px;
+    text-shadow: 0 0 20px gold;
+    letter-spacing: 4px;
 }
 
-.product{
-    background: #111;
-    width: 250px;
-    margin: 30px auto;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 15px gold;
-}
-
-img{
-    width: 200px;
-    border-radius: 10px;
-}
-
-button{
-    background: gold;
-    color: black;
-    border: none;
-    padding: 10px 25px;
-    border-radius: 20px;
-    font-weight: bold;
-}
-button {
-    background: gold;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-/* Luxury Shan Perfume Design */
-
-* {
-    transition: all 0.4s ease;
-}
-
-h1 {
-    color: gold;
-    text-shadow: 0 0 15px gold;
-    letter-spacing: 3px;
-}
-
-h2 {
+h2{
     color: gold;
     text-shadow: 0 0 10px gold;
 }
 
-.product {
+/* Product Cards */
+.product{
+    width: 350px;
+    background: #111;
+    margin: 40px auto;
+    padding: 25px;
     border: 2px solid gold;
-    box-shadow: 0 0 25px gold;
-    border-radius: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 30px gold;
+    transition: 0.4s;
 }
 
-.product:hover {
+.product:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 35px gold;
+    box-shadow: 0 0 45px gold;
 }
 
-img {
-    border-radius: 15px;
-}
-
-img:hover {
-    transform: scale(1.08);
-    box-shadow: 0 0 25px gold;
-}
-
-button {
-    animation: glow 1.5s infinite alternate;
-}
-
-button:hover {
-    background: white;
-    color: black;
+/* Images */
+img{
+    width: 300px;
+    border-radius: 20px;
     box-shadow: 0 0 20px gold;
+    transition: 0.4s;
 }
 
-@keyframes glow {
-    from {
-        box-shadow: 0 0 5px gold;
-    }
+img:hover{
+    transform: scale(1.08);
+}
 
-    to {
-        box-shadow: 0 0 25px gold;
-    }
+/* Buttons */
+button{
+    background: gold;
+    color: black;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 15px gold;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: white;
+    box-shadow: 0 0 30px gold;
+}
+
+/* Text */
+p{
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Line */
+hr{
+    border: 1px solid gold;
+    width: 80%;
 }
